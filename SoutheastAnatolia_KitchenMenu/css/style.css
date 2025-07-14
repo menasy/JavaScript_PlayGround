@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f5f8;
+  font-family: "Zilla Slab", serif;
+}
+
+h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: #ff6a23;
+}
+.menu {
+  margin-top: 20px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.filter-btn {
+  background: #2c2c2c;
+  border: 2px solid #ff6a23;
+  color: #ff6a23;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: capitalize;
+  font-family: "Zilla Slab", serif;
+}
+
+.filter-btn:hover {
+  background: #ff6a23;
+  color: #2c2c2c;
+  transform: translateY(-2px);
+}
+
+.filter-btn:active,
+.filter-btn.active {
+  background: #ff6a23;
+  color: #2c2c2c;
+}
+
+.btn-item {
+  margin-left: 15px;
+}
+
+.section-center {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.menu-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.photo {
+  width: 30%;
+  height: 175px;
+  object-fit: cover;
+  border: 0.25rem solid black;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.item-info {
+  flex: 2;
+  width: 100%;
+}
+
+.item-info header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.item-info h4 {
+  margin: 0;
+  color: #e00a00;
+  font-size: 1.3rem;
+}
+
+.price {
+  color: #e00a00;
+  font-weight: bold;
+}
+
+.item-text {
+  margin: 0;
+  line-height: 1.5;
+  color: #333;
+  padding-top: 10px;
+  font-size:larger;
+  color: #666;
+}
