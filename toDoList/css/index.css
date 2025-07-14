@@ -1,0 +1,66 @@
+.head {
+    background-color: #e99a33;
+    padding: 50px;
+    text-align: center;
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+}
+h1{
+	background-color: black;
+	padding: 10px;
+	width:fit-content;
+	color: aliceblue;
+	margin: auto;
+}
+input,table{
+	padding: 10px;
+	width: 100%;
+	margin: 70px 10;
+}
+
+.firstBut{
+	padding: 10px;
+	width: 100%;
+	margin: 70px 10;
+}
+
+ul,li{
+	cursor: pointer;
+  position: relative;
+  padding: 15px;
+  background: #eee;
+  font-size: 20px;
+  list-style-type: none;
+  width: 75%;
+	margin: auto;
+}
+li {
+    display: flex;
+    justify-content: space-between; /* solda yazı, sağda buton */
+    align-items: center;
+    padding: 15px;
+    background: #eee;
+    margin: 5px 0;
+    list-style-type: none;
+    width: 75%;
+    margin: 5px auto;
+}
+li span {
+    text-align: left; /* yazıları sola yasla */
+    flex-grow: 1; /* yazının tüm alanı kaplaması için */
+    padding-right: 10px;
+}
+.itemBut
+{
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    padding: 5px 8px; /* küçük kutu */
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 12px; /* küçük yazı */
+    width: 25px; /* sabit genişlik */
+    height: 25px; /* sabit yükseklik */
+}
+
