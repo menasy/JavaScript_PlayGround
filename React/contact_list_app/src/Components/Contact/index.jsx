@@ -38,15 +38,19 @@ function Contact() {
 			id='phone'
 			placeholder='Phone'
 			value={number}
-			onChange={(e) => setNumber(e.target.value)}
+			onChange={(e) => setNumber(e.target.value.trim())}
 			></input>
 		<br></br>
 		<button onClick={() =>{
-			 if (name && number) {
+			if (isNaN(number))
+				alert('Pelase enter a valid number')
+			if (name && number) {
      	 	setContacts([...contacts, { name, number }]);
       		setName('');
       		setNumber('');
-    }
+   		}
+		else
+			alert("Invalid value !")
 	}}>Add</button>
 	</div>
   );
